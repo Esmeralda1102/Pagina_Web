@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #ffe4e1;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    padding-top: 70px;
+    font-size: 2rem;
+    border-bottom: #000
+}
+
+.p2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+header {
+    font-size: 100px;
+}
+
+p {
+    text-align: justify;
+    padding: 20px 20px 20px 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+u li a {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.menu {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 87px;
+    background: #ffe4e1;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 2px solid pink;
+}
+
+nav {
+    display: flexs;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 11px;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+nav a:hover {
+    background: #e783ba;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contenedor .pastel {
+    height: 26rem;
+    width: 23rem;
+    background: #d881aa;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.contenedor i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #fa5f49;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.contenedor h4 {
+    font-size: 20px;
+    color: #0f0706;
+}
+
+.contenedor .box p {
+    padding: 0 15px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #d881aa;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+}
+
+img {
+    border-radius: 5%;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 3% 6%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #fa8072;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+footer img {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+footer {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}

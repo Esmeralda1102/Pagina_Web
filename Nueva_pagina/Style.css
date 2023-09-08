@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: #ffe4e1;
+}
+
+.menu {
+    display: flex;
+    margin-right: 10px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 87px;
+    background: #ffe4e1;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 2px solid pink;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 11px;
+    font-weight: bold;
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+nav a:hover {
+    background: #e783ba;
+}
+
+.boton1 a:hover{
+    background: none;
+}
+
+header {
+    padding-top: 7%;
+    font-size: 3rem;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 30px;
+    background: #1f1d1d
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.contenedor .box {
+    height: 26rem;
+    width: 23rem;
+    background: #d881aa;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+
+.contenedor h4 {
+    font-size: 20px;
+    color: #0f0706;
+    padding: 5%;
+    font-family: 'Dancing Script', cursive;
+}
+
+.contenedor .box p {
+    padding: 0 15px;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Amatic SC', cursive;
+}
+
+img {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #d881aa;
+}
+
+.hd {
+    padding-top: 30px;
+
+}
+.hd{
+    margin-bottom: 50px;
+}
+.boton1 span{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.hd p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    text-align: justify;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+body {
+    margin-left: 0;
+}
+
+img {
+    border-radius: 5%;
+}
+
+.pos1 img {
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    border-radius: 5%;
+}
+
+.parrafo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+.pos1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 3% 6%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.btn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: #fa8072;
+    color: white;
+}
+
+.boton_container {
+    display: inline-block;
+    position: relative;
+}
+
+.boton_container a {
+    position: absolute;
+    bottom: 4em;
+    right: 4em;
+    background-color: #8F0005;
+    border-radius: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+
+h4 {
+    font-family: 'Dancing Script', cursive;
+}
+
+footer p {
+    margin-top: 2%;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+footer img {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+footer {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.pagina a {
+    font-size: 30px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+
+.custom-btn {
+    width: 130px;
+    height: 50px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    display: flex;
+
+    
+  }
+  
+  
+  .btn-8 {
+    background-color: #d881aa;
+    background-image: linear-gradient(315deg, #d881aa 3%, #FE2EC8 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    margin: auto;
+    
+  }
+
+  .hd a{
+    text-decoration: none;
+  }
+  .btn-8 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-8:before,
+  .btn-8:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #c797eb;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    transition: all 0.3s ease;
+  }
+  .btn-8:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-8:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-8:hover:before {
+    height: 100%;
+  }
+  .btn-8:hover:after {
+    width: 100%;
+  }
+  .btn-8:hover{
+    background: transparent;
+  }
+  .btn-8 span:hover{
+    color: #c797eb;
+  }
+  .btn-8 span:before,
+  .btn-8 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #c797eb;
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.5),
+                -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+      inset -4px -4px 6px 0 rgba(255,255,255,.5),
+      inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
+    transition: all 0.3s ease;
+  }
+  .btn-8 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-8 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-8 span:hover:before {
+    height: 100%;
+  }
+  .btn-8 span:hover:after {
+    width: 100%;
+  }
+

@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html {
+    background-color: #ffe4e1;
+}
+
+.menu {
+    display: flex;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 5px;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 87px;
+    background: #ffe4e1;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 2px solid pink;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 11px;
+    font-weight: bold;
+    
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.menu1 {
+    font-family: 'Amatic SC', cursive;
+}
+
+nav a:hover {
+    background: #e783ba;
+}
+
+
+.contenedor{
+
+    max-width: 1000px;
+    width: 95%;
+}
+
+.imagen-formulario{
+    background-image: url(fondo.jpg);
+    flex: 0 0 calc(60%);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+
+}
+
+.imagen-formulario::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+@media(min-width:768px){
+
+    .imagen-formulario{
+        height: auto;
+    }
+
+}
+
+@media(min-width:768px){
+
+    .contenedor-formulario{
+        display: flex;
+        margin: auto;
+    }
+
+}
+
+.formulario{
+    padding: 50px;
+    background-color: black;
+}
+
+.texto-formulario h2, .input label, .contraseña-olvidada a, .texto-formulario p{
+    color: white;
+}
+
+.texto-formulario h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.texto-formulario p{
+    font-size: 22px;
+    text-align: center;
+}
+
+.input label{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+
+}
+
+.contraseña-olvidada a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.input input{
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.input input[type="submit"]{
+background-color: red;
+color: white;
+font-size: 22px;
+font-weight: bold;
+border: none;
+cursor: pointer;
+margin-top: 20px;
+}
+
+.input input[type="submit"]:hover{
+    background-color: #ffbdd6;
+    transition: 2s;
+
+}
+
+.otro {
+   display: flex;
+   margin: auto;
+}
+
+.contenedor-formulario{
+    margin: 10% 20% 10% 20%;
+    
+}
+
+.registrate a{
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
